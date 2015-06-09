@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<title>
+	Tic Tac Toe Two ; Electric boogaloo
+</title>
+<head>
+	<meta charset="utf-8"/>
+	<script src ="ticatactoe.js"></script>
+	<link rel="stylesheet" type="text/css" href="ticatactoe.css" />
+</head>
+<header>
+	<h1>Tic Tac Toe Go!</h1> 
+</header>
+<body><!--  containing arena and buttons lay out          -->
+     <div>   <input type="text" class="p1" placeholder="Enter Name For X" id="player1"></input>
+        <input type="text"class="p2" placeholder="Enter Name For Y" id="player2"></input>
+       
+      </div>
+	<div id="board">
+	<!--  buttons lay out   Not Dry at all        -->
+	<input type = "button" id = "bt1" onclick ="clickBt('bt1')"/>
+	<input type = "button" id = "bt2" onclick ="clickBt('bt2')"/>
+	<input type = "button" id = "bt3" onclick ="clickBt('bt3')"/><br>
+	<input type = "button" id = "bt4" onclick ="clickBt('bt4')"/>
+	<input type = "button" id = "bt5" onclick ="clickBt('bt5')"/>
+	<input type = "button" id = "bt6" onclick ="clickBt('bt6')"/><br>
+	<input type = "button" id = "bt7" onclick ="clickBt('bt7')"/>
+	<input type = "button" id = "bt8" onclick ="clickBt('bt8')"/>
+	<input type = "button" id = "bt9" onclick ="clickBt('bt9')"/>
+	<!--  buttons lay out          -->
+		
+	<!--  New Game button         -->
+		<div>
+		<input type = "button" id = "btNew" onclick = "reset()" value = "New Game"/>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -8,7 +8,7 @@ for the players another for the board. THen a set of four to six functions that 
 the board with for loops. 
 
 Initially I wanted to set player names using alert prompts, I could not get this feature to work,
-so I simply set an editible text input field where users could type their names. This field does not refresh when
+so I simply set an editable text input field where users could type their names. This field does not refresh when
 the new game button is hit.
 After some frustration I restarted the entire program using a very brute force method that would rely on
 input buttons on the html page; when clicked each button would first display X first then O. Then cycle through all possible

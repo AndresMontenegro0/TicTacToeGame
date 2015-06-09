@@ -26,5 +26,5 @@ If I were to try this again, I would definatly consider adding loops to iterate 
 of brute forcing my way through it.
 I would also implement the set player name in a better way, aswell as implement the ability to track scores.
 
-[Imgur](http://i.imgur.com/4iIHsnB.jpg)
-http://imgur.com/4iIHsnB
+![Imgur](http://i.imgur.com/4iIHsnB.jpg)
+

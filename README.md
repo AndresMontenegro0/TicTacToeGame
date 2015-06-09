@@ -25,6 +25,7 @@ The new game button isnt really neccessary. And tends to lead to misclicks where
 If I were to try this again, I would definatly consider adding loops to iterate over the board to determine winners instead
 of brute forcing my way through it.
 I would also implement the set player name in a better way, aswell as implement the ability to track scores.
+I'm somewhat weak with my css skills, this can be easily seen if you resize the browser, which throws all the elements out of order.
 
 ![Imgur](http://i.imgur.com/4iIHsnB.jpg)
 

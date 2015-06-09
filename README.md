@@ -2,6 +2,19 @@
 TicTacToe project for wdi
 This is a fairly simple game I created for WDI class.
 
+
+ technologies used
+ HTML
+ Page lay out for input buttons and text inout fields
+ 
+ JavaScript-
+ Almost exclusivly using functions and getElementById that divines when a button is clicked and displays and x Or O
+ 
+ CSS-
+ Styling of the page, done in a shaky manner.
+ 
+ Approach taken:
+ 
 My initial plan for the game was to use canvas elements for the board, but it became very difficult implementing the funtionality
 I wanted for the game with this method, my initial plan  was to get all the basics done with a set of 2 variables; one
 for the players another for the board. THen a set of four to six functions that would determine if X or O have won by parsing through
@@ -22,6 +35,7 @@ if else statement and sets the value back to the 1/True/X input.
 When a player wins, the reset is initialized which clears the board. 
 The new game button isnt really neccessary. And tends to lead to misclicks where games are accidently restarted.
 
+Unsolved problems:
 If I were to try this again, I would definatly consider adding loops to iterate over the board to determine winners instead
 of brute forcing my way through it.
 I would also implement the set player name in a better way, aswell as implement the ability to track scores.
